@@ -1,0 +1,143 @@
+{ "questions": [
+  {
+    "id": 1,
+    "question": "What does HTML stand for?",
+    "answer": "hypertext",
+    "point": 10,
+    "category": "HTML"
+  },
+  {
+    "id": 2,
+    "question": "What does CSS stand for?",
+    "answer": "styling",
+    "point": 10,
+    "category": "CSS"
+  },
+  {
+    "id": 3,
+    "question": "Which keyword declares a variable?",
+    "answer": "let",
+    "point": 10,
+    "category": "JS"
+  },
+  {
+    "id": 4,
+    "question": "Which keyword declares a constant?",
+    "answer": "const",
+    "point": 10,
+    "category": "JS"
+  },
+  {
+    "id": 5,
+    "question": "Which function prints to console?",
+    "answer": "log",
+    "point": 10,
+    "category": "JS"
+  },
+  {
+    "id": 6,
+    "question": "What does JS stand for?",
+    "answer": "javascript",
+    "point": 10,
+    "category": "JS"
+  },
+  {
+    "id": 7,
+    "question": "What symbol for single line comment?",
+    "answer": "slash",
+    "point": 10,
+    "category": "JS"
+  },
+  {
+    "id": 8,
+    "question": "What is the file extension for JavaScript?",
+    "answer": "js",
+    "point": 10,
+    "category": "JS"
+  },
+  {
+    "id": 9,
+    "question": "Which company created JavaScript?",
+    "answer": "netscape",
+    "point": 15,
+    "category": "JS"
+  },
+  {
+    "id": 10,
+    "question": "What does API stand for?",
+    "answer": "interface",
+    "point": 15,
+    "category": "General"
+  },
+  {
+    "id": 11,
+    "question": "What does SQL stand for?",
+    "answer": "query",
+    "point": 15,
+    "category": "Database"
+  },
+  {
+    "id": 12,
+    "question": "What does JSON stand for?",
+    "answer": "notation",
+    "point": 15,
+    "category": "JS"
+  },
+  {
+    "id": 13,
+    "question": "Which symbol means 'not equal'?",
+    "answer": "exclamation",
+    "point": 15,
+    "category": "JS"
+  },
+  {
+    "id": 14,
+    "question": "Which HTML tag is used for JavaScript?",
+    "answer": "script",
+    "point": 10,
+    "category": "HTML"
+  },
+  {
+    "id": 15,
+    "question": "Which CSS property changes text color?",
+    "answer": "color",
+    "point": 10,
+    "category": "CSS"
+  },
+  {
+    "id": 16,
+    "question": "What is React?",
+    "answer": "library",
+    "point": 15,
+    "category": "JS"
+  },
+  {
+    "id": 17,
+    "question": "What is Node.js?",
+    "answer": "runtime",
+    "point": 15,
+    "category": "JS"
+  },
+  {
+    "id": 18,
+    "question": "Which keyword stops a loop?",
+    "answer": "break",
+    "point": 10,
+    "category": "JS"
+  },
+  {
+    "id": 19,
+    "question": "Which keyword skips an iteration?",
+    "answer": "continue",
+    "point": 10,
+    "category": "JS"
+  },
+  {
+    "id": 20,
+    "question": "What does DOM stand for?",
+    "answer": "document",
+    "point": 15,
+    "category": "JS"
+  }
+]
+}
