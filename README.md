@@ -1,12 +1,124 @@
-# Game With Javascript
+# 🎯 Quiz Game
 
-A simple quiz game built with JavaScript for practice.
+A modern and interactive quiz application built with **HTML5**, **CSS3**, and **Vanilla JavaScript**.
 
-This project includes:
+Designed with a clean glassmorphism-inspired UI, animated feedback system, real-time score tracking, and OTP-style answer inputs.
 
-- Multiple choice questions
-- Score tracking
-- Simple user interface
+---
 
-I made it to practice JavaScript logic, DOM manipulation, and event handling.
-Feedback is welcome.
+## 📸 Preview
+
+![Quiz Game Preview](./preview.png)
+
+> Replace `preview.png` with your own screenshot and keep it in the root folder of the repository.
+
+---
+
+## ✨ Features
+
+- 🎮 Interactive quiz experience
+- ⚡ Real-time answer validation
+- 🏆 Dynamic score system
+- 📊 Progress tracking
+- 🔔 Animated toast notifications
+- 🎨 Modern glassmorphism design
+- 📱 Fully responsive layout
+- ⌨️ OTP-style answer inputs
+- 🚀 Built with pure JavaScript (No Frameworks)
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology        | Purpose              |
+| ----------------- | -------------------- |
+| HTML5             | Structure            |
+| CSS3              | Styling              |
+| Flexbox           | Layout               |
+| JavaScript (ES6+) | Logic & Interactions |
+
+---
+
+## 📂 Project Structure
+
+```text
+Quiz-Game/
+│
+├── index.html
+├── README.md
+│
+├── styles/
+│   └── app.css
+│
+├── script/
+│   ├── app.js
+│   └── questions.json
+│
+└── preview.png
+```
+
+---
+
+## 🚀 Getting Started
+
+### Clone Repository
+
+```bash
+git clone https://github.com/your-username/quiz-game.git
+```
+
+### Enter Project Folder
+
+```bash
+cd quiz-game
+```
+
+### Run Project
+
+Simply open:
+
+```text
+index.html
+```
+
+in your browser.
+
+---
+
+## 🎯 Gameplay
+
+1. Read the question.
+2. Enter the answer character by character.
+3. Receive instant feedback.
+4. Earn points for correct answers.
+5. Complete all questions and achieve the highest score.
+
+---
+
+## 📈 Future Improvements
+
+- Multiple difficulty levels
+- Timer system
+- Leaderboard
+- Local Storage support
+- Category filtering
+- Sound effects
+- Dark / Light theme switcher
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome.
+
+Feel free to fork the project and submit a pull request.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+### Made with ❤️ and JavaScript
