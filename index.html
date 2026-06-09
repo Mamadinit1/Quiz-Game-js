@@ -3,30 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Game Question</title>
+    <title>Quiz Game</title>
     <link rel="stylesheet" href="styles/app.css" />
   </head>
   <body>
     <div class="toast hidden">
-      <p class="toastTop">✅Correct</p>
+      <p class="toastTop">✅ Correct!</p>
       <p class="toastMain">answer was <span class="tip">HyperText</span></p>
       <div class="progress"></div>
     </div>
-
     <div class="container">
       <div class="stats-bar">
         <div class="stat-item">
-          <span class="stat-label">🏆 TOTAL SCORE</span>
+          <span class="stat-label">🏆 Score</span>
           <span class="stat-value" id="totalScore">59</span>
         </div>
-
         <div class="stat-item">
-          <span class="stat-label">✅ ANSWERED</span>
+          <span class="stat-label">✅ Done</span>
           <span class="stat-value" id="answeredCount"></span>
           <span class="stat-label">/</span>
           <span class="stat-value" id="totalQuestions"></span>
         </div>
-
         <div class="progress-ring">
           <div class="progress-bar-bg">
             <div class="progress-fill" id="progressFill"></div>
@@ -36,20 +33,6 @@
       </div>
       <div class="cardWrapper">
         <!-- fill with JavaScript -->
-        <!-- <div class="card">
-          <h1 class="question" id="questionText">${question.question}</h1>
-          <div class="answer" id="answerContainer"></div>
-          <div class="info-row">
-            <div class="category" id="categoryText">${question.category}</div>
-            <div class="score-box">
-              Score: <span id="scoreValue">${+question.point}</span>
-            </div>
-          </div>
-          <div class="your-answer">
-            <p>📝 Your answer:</p>
-            <p id="displayAnswer">_____</p>
-          </div>
-        </div> -->
       </div>
       <div class="btn-wrapper">
         <button class="btn btnNext" id="nextBtn">Next →</button>
