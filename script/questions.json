@@ -8,7 +8,7 @@
   },
   {
     "id": 2,
-    "question": "What does CSS stand for?",
+    "question": "What does CSS use for?",
     "answer": "styling",
     "point": 10,
     "category": "CSS"

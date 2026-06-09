@@ -4,9 +4,60 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Game Question</title>
+    <link rel="stylesheet" href="styles/app.css" />
   </head>
   <body>
-    <div class="container"></div>
+    <div class="container">
+      <div class="stats-bar">
+        <div class="stat-item">
+          <span class="stat-label">🏆 TOTAL SCORE</span>
+          <span class="stat-value" id="totalScore">59</span>
+        </div>
+
+        <div class="stat-item">
+          <span class="stat-label">✅ ANSWERED</span>
+          <span class="stat-value" id="answeredCount">5</span>
+          <span class="stat-label">/</span>
+          <span class="stat-value" id="totalQuestions">20</span>
+        </div>
+
+        <div class="progress-ring">
+          <div class="progress-bar-bg">
+            <div class="progress-fill" id="progressFill"></div>
+          </div>
+          <span class="progress-text" id="progressPercent">0%</span>
+        </div>
+      </div>
+      <div class="cardWrapper">
+        <div class="card">
+          <h1 class="question" id="questionText">
+            What is the capital of France?
+          </h1>
+
+          <div class="answer" id="answerContainer">
+            <input type="text" maxlength="1" />
+            <input type="text" maxlength="1" />
+            <input type="text" maxlength="1" />
+            <input type="text" maxlength="1" />
+            <input type="text" maxlength="1" />
+          </div>
+
+          <div class="info-row">
+            <div class="category" id="categoryText">Geography</div>
+            <div class="score-box">Score: <span id="scoreValue">0</span></div>
+          </div>
+
+          <div class="your-answer">
+            <p>📝 Your answer:</p>
+            <p id="displayAnswer">Paris✅</p>
+          </div>
+        </div>
+      </div>
+      <div class="btn-wrapper">
+        <button class="btn btnPrev" id="prevBtn">← Previous</button>
+        <button class="btn btnNext" id="nextBtn">Next →</button>
+      </div>
+    </div>
     <script src="script/app.js" type="module"></script>
   </body>
 </html>
