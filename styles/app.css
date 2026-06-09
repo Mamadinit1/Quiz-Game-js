@@ -212,6 +212,7 @@ body {
 
 .stats-bar {
   background: rgba(255, 255, 255, 0.95);
+  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   border-radius: 40px;
   padding: 16px 24px;
@@ -265,11 +266,45 @@ body {
   background: linear-gradient(90deg, #8b5cf6, #c084fc);
   border-radius: 10px;
   transition: width 0.3s ease;
-  width: 60%;
+  width: 0%;
 }
 
 .progress-text {
   font-size: 0.8rem;
   font-weight: 600;
   color: #475569;
+}
+
+.toast {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  background-color: #fff;
+  width: 15rem;
+  border-radius: 0.6rem;
+  z-index: 1000;
+  padding: 1rem 0.5rem;
+}
+.toastTop {
+  font-weight: 700;
+  border-bottom: 1px solid rgba(4, 214, 241, 0.233);
+  padding-bottom: 1rem;
+}
+.toastMain {
+  padding: 1rem 0;
+  font-weight: 100;
+  text-align: center;
+}
+.progress {
+  width: 0%;
+  background-color: #00c8ff;
+  padding: 0.12rem;
+  transition: width 2s linear;
+}
+.hidden {
+  display: none;
+}
+.tip {
+  color: #146eff;
+  font-weight: 600;
 }
