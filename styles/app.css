@@ -366,10 +366,9 @@ body::before {
 
 .progress {
   width: 0%;
-  background: linear-gradient(90deg, #7c3aed, #a78bfa);
   padding: 0.12rem;
-  margin: 0 -1.1rem;
-  transition: width 3s linear;
+  margin: 0;
+  transition: width 2.5s linear;
 }
 
 .hidden {

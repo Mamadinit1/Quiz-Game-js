@@ -164,9 +164,11 @@ function showToast(topValue, answer, status) {
   tip.innerHTML = answer;
 
   if (status === true) {
-    progress.style.backgroundColor = "#22c55e";
+    progress.style.backgroundImage =
+      "linear-gradient(to right, #1fdc43, #18e53c, #10ed32, #06f625, #00ff0d)";
   } else {
-    progress.style.backgroundColor = "#ef4444";
+    progress.style.backgroundImage =
+      "linear-gradient(to right, #d52222, #c71b1b, #b91513, #ab0d0c, #9d0404)";
   }
 
   progress.style.transition = "none";
@@ -174,7 +176,7 @@ function showToast(topValue, answer, status) {
 
   requestAnimationFrame(() => {
     requestAnimationFrame(() => {
-      progress.style.transition = "width 3s linear";
+      progress.style.transition = "width 2.5s linear";
       progress.style.width = "100%";
     });
   });
