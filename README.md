@@ -19,8 +19,6 @@ Designed with a clean glassmorphism-inspired UI, animated feedback system, real-
 - 🏆 Dynamic score system
 - 📊 Progress tracking
 - 🔔 Animated toast notifications
-- 🎨 Modern glassmorphism design
-- 📱 Fully responsive layout
 - ⌨️ OTP-style answer inputs
 - 🚀 Built with pure JavaScript (No Frameworks)
 
@@ -83,39 +81,11 @@ in your browser.
 
 ---
 
-## 🎯 Gameplay
-
-1. Read the question.
-2. Enter the answer character by character.
-3. Receive instant feedback.
-4. Earn points for correct answers.
-5. Complete all questions and achieve the highest score.
-
----
-
-## 📈 Future Improvements
-
-- Multiple difficulty levels
-- Timer system
-- Leaderboard
-- Local Storage support
-- Category filtering
-- Sound effects
-- Dark / Light theme switcher
-
----
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome.
 
 Feel free to fork the project and submit a pull request.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
 
 ---
 
